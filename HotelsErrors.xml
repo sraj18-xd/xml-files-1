@@ -37,12 +37,11 @@
   <Hotel Rating="4.0">
     <Name>Courtyard by Marriott Tempe</Name>
     <Phone>480-966-2800</Phone>
-    <Address>
-    <!-- Number is missing, which is a validation error -->
+    <Address> <!-- Error 4: No closing tag -->
+      <Number>601</Number>
       <Street>S Ash Ave</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-    </Address>
-</Hotel>
+  </Hotel>
 </Hotel>
