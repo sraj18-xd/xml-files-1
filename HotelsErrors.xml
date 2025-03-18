@@ -34,14 +34,15 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="4.0">
-    <Name>Courtyard by Marriott Tempe</Name>
-    <Phone>480-966-2800</Phone>
-    <Address> <!-- Error 4: No closing tag -->
-      <Number>601</Number>
-      <Street>S Ash Ave</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-  </Hotel>
+ <Hotel Rating="4.0">
+  <Name>Courtyard by Marriott Tempe</Name>
+  <Phone>480-966-2800</Phone>
+  <Address NearstAirport="Phoenix Sky Harbor"> <!-- Error 4: Incorrect closing tag -->
+    <Number>601</Number>
+    <Street>S Ash Ave</Street>
+    <City>Tempe</City>
+    <State>AZ</State>
+    <Zip>85281</Zip>
+  </Addres> 
+</Hotel>
 </Hotel>
