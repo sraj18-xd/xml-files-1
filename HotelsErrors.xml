@@ -25,7 +25,7 @@
   </Hotel>
   <Hotel> <!-- Error 2: Missing required 'Rating' attribute -->
     <Name>Hilton Garden Inn Tempe</Name>
-    <!-- Error 3: No 'Phone' element (now this is an error because Phone is required) -->
+    <!-- Error 3: No 'Phone' element (required per schema) -->
     <Address NearstAirport="Phoenix Sky Harbor">
       <Number>86</Number>
       <Street>S Rockford Dr</Street>
@@ -34,15 +34,14 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
- <Hotel Rating="4.0">
-  <Name>Courtyard by Marriott Tempe</Name>
-  <Phone>480-966-2800</Phone>
-  <Address NearstAirport="Phoenix Sky Harbor"> <!-- Error 4: Incorrect closing tag -->
-    <Number>601</Number>
-    <Street>S Ash Ave</Street>
-    <City>Tempe</City>
-    <State>AZ</State>
-    <Zip>85281</Zip>
-  </Addres> 
-</Hotel>
+  <Hotel Rating="4.0">
+    <Name>Courtyard by Marriott Tempe</Name>
+    <Phone>480-966-2800</Phone>
+    <Address> <!-- Error 4: No closing tag -->
+      <Number>601</Number>
+      <Street>S Ash Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+  </Hotel>
 </Hotel>
