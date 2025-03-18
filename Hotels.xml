@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotels>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
@@ -27,7 +27,7 @@
     <Name>Hilton Garden Inn Tempe</Name>
     <Phone>480-968-2180</Phone>
     <Phone>877-782-9444</Phone>
-    <Address NearestAirport="Phoenix Sky Harbor">
+    <Address NearstAirport="Phoenix Sky Harbor">
       <Number>86</Number>
       <Street>S Rockford Dr</Street>
       <City>Tempe</City>
@@ -49,7 +49,7 @@
   <Hotel Rating="4.1">
     <Name>Hyatt Regency Phoenix</Name>
     <Phone>602-252-1234</Phone>
-    <Address NearestAirport="Phoenix Sky Harbor">
+    <Address NearstAirport="Phoenix Sky Harbor">
       <Number>122</Number>
       <Street>N 2nd St</Street>
       <City>Phoenix</City>
@@ -83,7 +83,7 @@
   <Hotel Rating="4.4">
     <Name>The Phoenician</Name>
     <Phone>480-941-8200</Phone>
-    <Address NearestAirport="Phoenix Sky Harbor">
+    <Address NearstAirport="Phoenix Sky Harbor">
       <Number>6000</Number>
       <Street>E Camelback Rd</Street>
       <City>Scottsdale</City>
