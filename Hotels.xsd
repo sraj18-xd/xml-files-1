@@ -1,131 +1,38 @@
-<!--
-Assignment 4 XML: (Gradescope) Submission
-
-Name: Shorya Raj
-
-Description: This XSD schema defines the structure for a Hotels XML file as per CSE445 Assignment 4 requirements. It specifies the elements, attributes, and their constraints for validating hotel directory data.
--->
-
-<!--
-The below line declares the XML version and encoding for the schema.
--->
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-The below line defines the schema element with namespaces and form default settings.
+Assignment 4 XML: (Gradescope) Submission
+Name: Shorya Raj
+Description: This XSD schema defines the structure for a Hotels XML file as per CSE445 Assignment 4 requirements. It specifies the elements, attributes, and their constraints for validating hotel directory data.
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            targetNamespace="http://sraj18-xd.github.io/xml-files-1/"
            xmlns="http://sraj18-xd.github.io/xml-files-1/"
            elementFormDefault="qualified">
-  <!--
-  The below line declares the root element 'Hotels'.
-  -->
   <xs:element name="Hotels">
-    <!--
-    The below line starts the complex type definition for 'Hotels'.
-    -->
     <xs:complexType>
-      <!--
-      The below line specifies a sequence of child elements within 'Hotels'.
-      -->
       <xs:sequence>
-        <!--
-        The below line defines the 'Hotel' element with unbounded occurrences.
-        -->
         <xs:element name="Hotel" maxOccurs="unbounded">
-          <!--
-          The below line starts the complex type definition for 'Hotel'.
-          -->
           <xs:complexType>
-            <!--
-            The below line specifies a sequence of child elements within 'Hotel'.
-            -->
             <xs:sequence>
-              <!--
-              The below line defines the 'Name' element as a string type.
-              -->
               <xs:element name="Name" type="xs:string"/>
-              <!--
-              The below line defines the 'Phone' element as a string type with unbounded occurrences.
-              -->
               <xs:element name="Phone" type="xs:string" maxOccurs="unbounded"/>
-              <!--
-              The below line defines the 'Address' element.
-              -->
               <xs:element name="Address">
-                <!--
-                The below line starts the complex type definition for 'Address'.
-                -->
                 <xs:complexType>
-                  <!--
-                  The below line specifies a sequence of child elements within 'Address'.
-                  -->
                   <xs:sequence>
-                    <!--
-                    The below line defines the 'Number' element as a string type.
-                    -->
                     <xs:element name="Number" type="xs:string"/>
-                    <!--
-                    The below line defines the 'Street' element as a string type.
-                    -->
                     <xs:element name="Street" type="xs:string"/>
-                    <!--
-                    The below line defines the 'City' element as a string type.
-                    -->
                     <xs:element name="City" type="xs:string"/>
-                    <!--
-                    The below line defines the 'State' element as a string type.
-                    -->
                     <xs:element name="State" type="xs:string"/>
-                    <!--
-                    The below line defines the 'Zip' element as a string type.
-                    -->
                     <xs:element name="Zip" type="xs:string"/>
-                  <!--
-                  The below line closes the sequence of elements within 'Address'.
-                  -->
                   </xs:sequence>
-                  <!--
-                  The below line defines an optional 'NearstAirport' attribute for 'Address'.
-                  -->
                   <xs:attribute name="NearstAirport" type="xs:string" use="optional"/>
-                <!--
-                The below line closes the complex type definition for 'Address'.
-                -->
                 </xs:complexType>
-              <!--
-              The below line closes the 'Address' element definition.
-              -->
               </xs:element>
-            <!--
-            The below line closes the sequence of elements within 'Hotel'.
-            -->
             </xs:sequence>
-            <!--
-            The below line defines a required 'Rating' attribute for 'Hotel'.
-            -->
             <xs:attribute name="Rating" type="xs:string" use="required"/>
-          <!--
-          The below line closes the complex type definition for 'Hotel'.
-          -->
           </xs:complexType>
-        <!--
-        The below line closes the 'Hotel' element definition.
-        -->
         </xs:element>
-      <!--
-      The below line closes the sequence of elements within 'Hotels'.
-      -->
       </xs:sequence>
-    <!--
-    The below line closes the complex type definition for 'Hotels'.
-    -->
     </xs:complexType>
-  <!--
-  The below line closes the 'Hotels' element definition.
-  -->
   </xs:element>
-<!--
-The below line closes the schema definition.
--->
 </xs:schema>
