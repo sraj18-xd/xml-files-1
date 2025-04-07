@@ -1,8 +1,25 @@
+<!--
+Assignment 4 XML: (Gradescope) Submission
+
+Name: Shorya Raj
+
+Description: This XML file represents a directory of hotels as per CSE445 Assignment 4 requirements. It contains data for at least ten real hotels, adhering to the Hotels.xsd schema, with required and optional attributes included.
+-->
+
+<!--
+The below line declares the XML version and encoding.
+-->
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+The below line defines the root element 'Hotels' with namespace and schema location attributes.
+-->
 <Hotels xmlns="http://sraj18-xd.github.io/xml-files-1/" 
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
        xsi:schemaLocation="http://sraj18-xd.github.io/xml-files-1/ https://sraj18-xd.github.io/xml-files-1/Hotels.xsd">
 
+  <!--
+  The following line starts the entry for the Westin hotel.
+  -->
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -15,6 +32,9 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
+  <!--
+  The following line starts the entry for the Marriott Phoenix Resort Tempe hotel.
+  -->
   <Hotel Rating="4.5">
     <Name>Marriott Phoenix Resort Tempe</Name>
     <Phone>602-225-9000</Phone>
@@ -26,6 +46,9 @@
       <Zip>85282</Zip>
     </Address>
   </Hotel>
+  <!--
+  The following line starts the entry for the Hilton Garden Inn Tempe hotel.
+  -->
   <Hotel Rating="4.0">
     <Name>Hilton Garden Inn Tempe</Name>
     <Phone>480-968-2180</Phone>
@@ -38,6 +61,9 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
+  <!--
+  The following line starts the entry for the Hampton Inn Phoenix hotel.
+  -->
   <Hotel Rating="3.8">
     <Name>Hampton Inn Phoenix</Name>
     <Phone>602-589-0688</Phone>
@@ -49,6 +75,9 @@
       <Zip>85040</Zip>
     </Address>
   </Hotel>
+  <!--
+  The following line starts the entry for the Hyatt Regency Phoenix hotel.
+  -->
   <Hotel Rating="4.1">
     <Name>Hyatt Regency Phoenix</Name>
     <Phone>602-252-1234</Phone>
@@ -60,6 +89,9 @@
       <Zip>85004</Zip>
     </Address>
   </Hotel>
+  <!--
+  The following line starts the entry for the Sheraton Grand Phoenix hotel.
+  -->
   <Hotel Rating="4.3">
     <Name>Sheraton Grand Phoenix</Name>
     <Phone>602-262-2500</Phone>
@@ -72,6 +104,9 @@
       <Zip>85004</Zip>
     </Address>
   </Hotel>
+  <!--
+  The following line starts the entry for the Courtyard by Marriott Tempe hotel.
+  -->
   <Hotel Rating="3.9">
     <Name>Courtyard by Marriott Tempe</Name>
     <Phone>480-966-2800</Phone>
@@ -83,6 +118,9 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
+  <!--
+  The following line starts the entry for The Phoenician hotel.
+  -->
   <Hotel Rating="4.4">
     <Name>The Phoenician</Name>
     <Phone>480-941-8200</Phone>
@@ -94,6 +132,9 @@
       <Zip>85251</Zip>
     </Address> 
   </Hotel>
+  <!--
+  The following line starts the entry for the DoubleTree by Hilton Tempe hotel.
+  -->
   <Hotel Rating="4.0">
     <Name>DoubleTree by Hilton Tempe</Name>
     <Phone>480-967-1441</Phone>
@@ -106,6 +147,9 @@
       <Zip>85282</Zip>
     </Address>
   </Hotel>
+  <!--
+  The following line starts the entry for the Renaissance Phoenix Downtown hotel.
+  -->
   <Hotel Rating="4.2">
     <Name>Renaissance Phoenix Downtown</Name>
     <Phone>602-333-0000</Phone>
@@ -117,4 +161,7 @@
       <Zip>85004</Zip>
     </Address>
   </Hotel>
+<!--
+The below line closes the root element 'Hotels'.
+-->
 </Hotels>
