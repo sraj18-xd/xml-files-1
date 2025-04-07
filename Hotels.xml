@@ -23,112 +23,112 @@ Description: This XML file represents a directory of hotels as per CSE445 Assign
   <!-- The following line starts the entry for the Marriott Phoenix Resort Tempe hotel -->
   <Hotel Rating="4.5">
     <Name>Marriott Phoenix Resort Tempe</Name>
-    <Phone>602-225-9000</Phone>
+    <Phone>602-225-7832</Phone>
     <Address>
-      <Number>2000</Number>
+      <Number>3421</Number>
       <Street>W Westcourt Way</Street>
       <City>Tempe</City>
       <State>AZ</State>
-      <Zip>85282</Zip>
+      <Zip>85288</Zip>
     </Address>
   </Hotel>
   <!-- The following line starts the entry for the Hilton Garden Inn Tempe hotel -->
   <Hotel Rating="4.0">
     <Name>Hilton Garden Inn Tempe</Name>
-    <Phone>480-968-2180</Phone>
-    <Phone>877-782-9444</Phone>
+    <Phone>480-968-2380</Phone>
+    <Phone>877-782-9454</Phone>
     <Address NearstAirport="Phoenix Sky Harbor">
-      <Number>86</Number>
+      <Number>96</Number>
       <Street>S Rockford Dr</Street>
       <City>Tempe</City>
       <State>AZ</State>
-      <Zip>85281</Zip>
+      <Zip>85280</Zip>
     </Address>
   </Hotel>
   <!-- The following line starts the entry for the Hampton Inn Phoenix hotel -->
   <Hotel Rating="3.8">
     <Name>Hampton Inn Phoenix</Name>
-    <Phone>602-589-0688</Phone>
+    <Phone>602-579-0688</Phone>
     <Address>
-      <Number>4234</Number>
+      <Number>4254</Number>
       <Street>S 48th St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
-      <Zip>85040</Zip>
+      <Zip>85050</Zip>
     </Address>
   </Hotel>
   <!-- The following line starts the entry for the Hyatt Regency Phoenix hotel -->
   <Hotel Rating="4.1">
     <Name>Hyatt Regency Phoenix</Name>
-    <Phone>602-252-1234</Phone>
+    <Phone>602-262-1244</Phone>
     <Address NearstAirport="Phoenix Sky Harbor">
       <Number>122</Number>
       <Street>N 2nd St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
-      <Zip>85004</Zip>
+      <Zip>85006</Zip>
     </Address>
   </Hotel>
   <!-- The following line starts the entry for the Sheraton Grand Phoenix hotel -->
   <Hotel Rating="4.3">
     <Name>Sheraton Grand Phoenix</Name>
-    <Phone>602-262-2500</Phone>
-    <Phone>800-325-3535</Phone>
+    <Phone>602-232-2590</Phone>
+    <Phone>800-365-3555</Phone>
     <Address>
-      <Number>340</Number>
+      <Number>373</Number>
       <Street>N 3rd St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
-      <Zip>85004</Zip>
+      <Zip>85349</Zip>
     </Address>
   </Hotel>
   <!-- The following line starts the entry for the Courtyard by Marriott Tempe hotel -->
   <Hotel Rating="3.9">
     <Name>Courtyard by Marriott Tempe</Name>
-    <Phone>480-966-2800</Phone>
+    <Phone>480-966-7823</Phone>
     <Address>
-      <Number>601</Number>
+      <Number>832</Number>
       <Street>S Ash Ave</Street>
       <City>Tempe</City>
       <State>AZ</State>
-      <Zip>85281</Zip>
+      <Zip>85285</Zip>
     </Address>
   </Hotel>
   <!-- The following line starts the entry for The Phoenician hotel -->
   <Hotel Rating="4.4">
     <Name>The Phoenician</Name>
-    <Phone>480-941-8200</Phone>
+    <Phone>480-991-4500</Phone>
     <Address NearstAirport="Phoenix Sky Harbor">
-      <Number>6000</Number>
+      <Number>5620</Number>
       <Street>E Camelback Rd</Street>
       <City>Scottsdale</City>
       <State>AZ</State>
-      <Zip>85251</Zip>
+      <Zip>85221</Zip>
     </Address> 
   </Hotel>
   <!-- The following line starts the entry for the DoubleTree by Hilton Tempe hotel -->
   <Hotel Rating="4.0">
     <Name>DoubleTree by Hilton Tempe</Name>
-    <Phone>480-967-1441</Phone>
-    <Phone>800-528-6481</Phone>
+    <Phone>480-967-3456</Phone>
+    <Phone>800-528-4256</Phone>
     <Address>
-      <Number>2100</Number>
+      <Number>8732</Number>
       <Street>S Priest Dr</Street>
       <City>Tempe</City>
       <State>AZ</State>
-      <Zip>85282</Zip>
+      <Zip>85232</Zip>
     </Address>
   </Hotel>
   <!-- The following line starts the entry for the Renaissance Phoenix Downtown hotel -->
   <Hotel Rating="4.2">
     <Name>Renaissance Phoenix Downtown</Name>
-    <Phone>602-333-0000</Phone>
+    <Phone>602-333-6735</Phone>
     <Address>
-      <Number>100</Number>
+      <Number>543</Number>
       <Street>N 1st St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
-      <Zip>85004</Zip>
+      <Zip>85378</Zip>
     </Address>
   </Hotel>
 </Hotels>
