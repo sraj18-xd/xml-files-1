@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           targetNamespace="http://sraj18-xd.github.io/xml-files-1/"
-           xmlns="http://sraj18-xd.github.io/xml-files-1/"
-           elementFormDefault="qualified">
+<Hotels xmlns="http://sraj18-xd.github.io/xml-files-1/" 
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+       xsi:schemaLocation="http://sraj18-xd.github.io/xml-files-1/ https://sraj18-xd.github.io/xml-files-1/Hotels.xsd">
 
   <Hotel Rating="4.2">
     <Name>Westin</Name>
